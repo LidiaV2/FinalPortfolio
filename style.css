@@ -1,8 +1,8 @@
 body {
-  background: rgb(112, 96, 130);
+  background: rgb(92, 56, 134);
 }
 p {
-  color: #6a334b;
+  color: #85415f;
 }
 h1 {
   font-weight:400;
@@ -10,30 +10,33 @@ h1 {
 .head {
   text-align: center;
   font-family:fantasy;
-  color: #6a334b;
+  color: #85415f;
   padding-bottom: 15px;
-  background-color: #c8b6e2;
+  background-color: #a79cb6;
   border-width:thick;
   border-color: #820d5f;
-  border-style: dotted;
+  border-style:groove;
+  margin: 20px;
 }
 .sections {
-    background-color: #c8b6e2;
+  background-color: #a79cb6;
   display:flex;
   justify-content: center;
   column-gap: 30px;
-  margin-top: 0px;
+  margin-top: 2px;
   margin-bottom: 20px;
-  border-bottom-style: dashed;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-bottom-style:groove;
   border-color:#820d5f;
-  border-top-style: dashed;
+  border-style:groove;
 }
 .drpdwn {
-  position: relative;
-  display: inline-block;
+  position:relative;
+  display:inline-block;
 }
 .btn {
-  background-color: #c1afdb;
+  background-color: #a79cb6;
   color: #6a334b;
   padding: 0px;
   font-size: 15px;
@@ -63,8 +66,8 @@ h1 {
   background-color: rgb(112, 96, 130);
 }
 .drpdwn:hover .content {
-   display:block;
+  display:block;
 }
 .drpdwn:hover .btn {
-   background-color: #a99ac0;
+  background-color: #a99ac0;
 }
