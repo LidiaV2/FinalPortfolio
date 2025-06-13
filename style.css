@@ -1,0 +1,19 @@
+body {
+  background: rgb(112, 96, 130);
+}
+p {
+  color: #6a334b;
+}
+h1 {
+  font-weight:400;
+}
+.head{
+  text-align: center;
+  font-family:fantasy;
+  color: #6a334b;
+  padding-bottom: 15px;
+  background-color: #c8b6e2;
+  border-width:thick;
+  border-color: #820d5f;
+  border-style: dotted;
+}
