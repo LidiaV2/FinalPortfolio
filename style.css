@@ -17,3 +17,14 @@ h1 {
   border-color: #820d5f;
   border-style: dotted;
 }
+.sections {
+    background-color: #c8b6e2;
+  display:flex;
+  justify-content: center;
+  column-gap: 30px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border-bottom-style: dashed;
+  border-color:#820d5f;
+  border-top-style: dashed;
+}
