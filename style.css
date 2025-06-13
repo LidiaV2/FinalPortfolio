@@ -28,3 +28,43 @@ h1 {
   border-color:#820d5f;
   border-top-style: dashed;
 }
+.drpdwn {
+  position: relative;
+  display: inline-block;
+}
+.btn {
+  background-color: #c1afdb;
+  color: #6a334b;
+  padding: 0px;
+  font-size: 15px;
+  cursor: pointer;
+  font-family:cursive;
+  letter-spacing: 5px;
+  font-weight:bolder;
+  border:none;
+}
+.content {
+  display: none;
+  position:absolute;
+  background-color: #a99ac0;
+  min-width: 103px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 16px
+}
+.content a {
+  color: #6a334b;
+  padding: 9px 12px;
+  text-decoration: none;
+  display: block;
+  font-weight:bold;
+}
+.content a:hover {
+  background-color: rgb(112, 96, 130);
+}
+.drpdwn:hover .content {
+   display:block;
+}
+.drpdwn:hover .btn {
+   background-color: #a99ac0;
+}
